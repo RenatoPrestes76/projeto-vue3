@@ -30,3 +30,12 @@ nav {
   }
 }
 </style>
+<script>
+// Import
+
+
+export default {
+  name: 'App',
+};
+</script>
+
