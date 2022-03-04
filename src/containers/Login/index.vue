@@ -1,5 +1,7 @@
 <template>
+
             <div class="text-ola" id="text-ola">
+                
                 <img  id="midiaLogoCompass" draggable="false" src='@/assets/LogoCompassText.png' alt="imagem-compass">
                 <div id="containerText">
                     <div id="text">
