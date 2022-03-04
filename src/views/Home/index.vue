@@ -1,8 +1,8 @@
 <template>
    <section>
-    <home-Home />
-    <home-mainHome />
-    <home-footer />
+    <Home-page />
+    <mainHome-page />
+    <footer-page />
   </section>
 </template>
 
@@ -13,12 +13,12 @@ import footer from '@/containers/Footer/index.vue';
 export default {
     name: 'home-page',
     componentes: {
-        homeHome,
-        homemainHome,
-        homefooter,
+        Home,
+        mainHome,
+        footer,
     },
     
-}:
+}
 </script>
 
 <style scoped>

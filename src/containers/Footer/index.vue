@@ -17,17 +17,17 @@
     <div id="continueMsg">
         <p>Continuar<br>Navegando</p>
     </div>
-        button id="logout">Logout</button>
+        <button id="logout">Logout</button>
     </div>  
 </div>
 </template>
 
 <script>
-import homeTimer from '@/components/timer/index.vue';
+
 export default {
-  name: 'footer',
+  name: 'footer-page',
   components: {
-    homeTimer,
+  
   },
 };
 </script>

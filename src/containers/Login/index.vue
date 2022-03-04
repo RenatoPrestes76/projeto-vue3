@@ -1,6 +1,6 @@
 <template>
             <div class="text-ola" id="text-ola">
-                <img  id="midiaLogoCompass" draggable="false" src="./assets/LogoCompassText.png" alt="imagem-compass">
+                <img  id="midiaLogoCompass" draggable="false" src='@/assets/LogoCompassText.png' alt="imagem-compass">
                 <div id="containerText">
                     <div id="text">
                         <h2>Olá,</h2>
@@ -10,14 +10,14 @@
                     <div id="containerImput">               
                         <div id="textInput" class="imput">
                             <div class="test">
-                                <input autocomplete="off" type="text" id="user" class="input" placeholder="Usuário"></input>
-                                <img  draggable="false" src="./assets/login.png">
+                                    <input autocomplete="off" type="text" id="user" class="input" placeholder="Usuário">
+                                <img  draggable="false" src="@/assets/login.png">
                             </div>
                         </div>
                         <div id="passwordInput" class="imput">
                             <div class="test">
-                                <input autocomplete="off" type="password" id="password" class="input" placeholder="Senha"></input>
-                                <img  draggable="false" src="./assets/password.png">
+                                <input autocomplete="off" type="password" id="password" class="input" placeholder="Senha">
+                                <img  draggable="false" src="@/assets/password.png">
                             </div>
                         </div>
                         <div id="textErro">
@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: 'Login',
+  name: 'Login-page',
 };
 </script>
 

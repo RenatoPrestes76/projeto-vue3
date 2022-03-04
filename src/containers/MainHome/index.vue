@@ -1,15 +1,15 @@
 <template>
   <div id="mainHome">      
     <div id="logoGrandeCompass">            
-        <img draggable="false" src="./assets/bola-LogoCompasso.png" alt="imagem-compass">        
+        <img draggable="false" src="@/assets/bola-LogoCompasso.png" alt="imagem-compass">        
     </div>
     <div id="text-msg">
         <div id="boxParagrafo">                   
             <h1>Our mission is</h1>
             <p>Nossa missão é</p>
-            h2>to transform the world</h2>
+            <h2>to transform the world</h2>
             <p>transformar o mundo</p>
-            h2>building digital experiences</h2>    
+            <h2>building digital experiences</h2>    
             <p>construindo experiências digitais</p>                 
             <h2>that enable our client's growth</h2>         
             <p>que permitam o crescimento dos nossos clientes</p>
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'mainHome',
+  name: 'mainHome-page',
 };
 </script>
 

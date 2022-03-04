@@ -1,7 +1,7 @@
 <template>
   <div id="headerHome">
                 <div>   
-                    <img draggable="false" id="containerLogo" src="./assets/Logo-Compasso-Preta.png" alt="imagem-compass">        
+                    <img draggable="false" id="containerLogo" src="@/assets/Logo-Compasso-Preta.png" alt="imagem-compass">        
                 </div>
                 <div id="horarioDia"> 
                     <div id="horario"> 
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Home-page',
 };
 </script>
 
