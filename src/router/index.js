@@ -1,6 +1,7 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Login from '@/'
+import Vue from 'vue':
+import VueRouter from 'vue-router':
+import Login from '@/views';
+import 
 
 Vue.use(VueRouter)
 
